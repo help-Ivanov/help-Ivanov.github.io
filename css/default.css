@@ -1,0 +1,16 @@
+:root {
+    --main: #0067f4;
+    --gray: #E9ECEF;
+    --dark: #001A49;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 614px;
+    }
+}
