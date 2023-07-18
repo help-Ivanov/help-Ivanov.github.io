@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нужна помощь!</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <h1 class="header-title">Нужна помощь!</h1>
+                <div class="bank-cards">
+
+                    <div class="bank-card_item">
+                        <div id="sber-logo" class="bank-logo">
+                            <img src="img/bank-logo/sber-logo.png" alt="Sber-bank" class="bank-img">
+                        </div>
+                        <p class="number-card">4276 7500 2995 0820</p>
+                        <div onclick="copyNumber('4276750029950820', this)" class="bank-button">
+                            <img src="img/icons/copy.svg" alt="arrow">
+                        </div>
+                    </div>
+
+                    <div class="bank-card_item">
+                        <div id="tinkoff-logo" class="bank-logo">
+                            <img src="img/bank-logo/tinkoff-logo.png" alt="Tinkoff-bank" class="bank-img">
+                        </div>
+                        <p class="number-card">5536 9140 0846 0887</p>
+                        <div onclick="copyNumber('5536914008460887')" class="bank-button">
+                            <img src="img/icons/copy.svg" alt="arrow">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bank-cards">
+
+                    <div class="bank-card_item">
+                        <div id="alpha-logo" class="bank-logo">
+                            <img src="img/bank-logo/alpha-logo.png" alt="Alpha-bank" class="bank-img">
+                        </div>
+                        <p class="number-card">2200 1505 4852 7156</p>
+                        <div onclick="copyNumber('2200150548527156', this)" class="bank-button">
+                            <img src="img/icons/copy.svg" alt="arrow">
+                        </div>
+                    </div>
+
+                    <div class="bank-card_item">
+                        <div id="qiwi-logo" class="bank-logo">
+                            <img src="img/bank-logo/qiwi-logo.png" alt="qiwi-bank" class="bank-img">
+                        </div>
+                        <p class="number-card">+79935522913</p>
+                        <a href="http://qiwi.com/p/79935522913" target="_blank" class="bank-button">
+                            <img src="img/icons/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <div class="history">
+                    <p class="history-title">Что случилось?</p>
+                    <p class="history-description">Добрый день! <br><br>
+                        12 июля у нас случился пожар. В тот момент никого из нас дома не было, поэтому мы вовремя не смогли сообщить об этом спасателям, и огонь успел сильно разгореться. Слава Богу, никто не пострадал. <br><br>
+                        Причиной пожара стало замыкание электропроводки. Это случилось очень неожиданно, мы не ожидали, что такое может произойти. Сам дом не сгорел, но внутри почти все сгорело. <br><br>
+                        Мы очень просим всех неравнодушных помочь нам чем-то. Если у вас есть возможность, пожалуйста, пожертвуйте нам любую сумму. Даже небольшая сумма будет очень важна для нас. <br><br>
+                        Спасибо вам за помощь! <br><br>
+                        С уважением, <br><br>
+                        Семья [Ваша Фамилия]</p>
+                </div>
+                <div class="gallery">
+                    
+                    <div class="gallery-photo">
+                        <div class="gallery-photo-item">
+                            <img src="img/gallery/gallery-img_1.jpg" alt="img" class="gallery-photo_img">
+                        </div>
+                        <div class="gallery-photo-item">
+                            <img src="img/gallery/gallery-img_2.jpg" alt="img" class="gallery-photo_img">
+                        </div>
+                        <div class="gallery-photo-item">
+                            <img src="img/gallery/gallery-img_3.jpg" alt="img" class="gallery-photo_img">
+                        </div>
+                    </div>
+
+                    <div class="gallery-video">
+                        <video class="gallery-video-item" src="video/gallery/gallery-video.mp4" controls></video>
+                    </div>
+
+                    <div id="gallery-photo_bottom" class="gallery-photo">
+                        <div class="gallery-photo-item">
+                            <img src="img/gallery/gallery-img_4.jpg" alt="img" class="gallery-photo_img">
+                        </div>
+                        <div class="gallery-photo-item">
+                            <img src="img/gallery/gallery-img_5.jpg" alt="img" class="gallery-photo_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
